@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Ade's Diner</title>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <!-- Bootstrap CSS -->
+
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" />
+        <!-- My CSS -->
+        <link rel="stylesheet" href="style.css" />
+        <!-- Font Awesome -->
+        <script src="https://kit.fontawesome.com/996973c893.js"></script>
+        <!-- Google Fonts -->
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&family=Roboto+Slab:wght@200;400;600;900&display=swap"
+        rel="stylesheet" />
+
+    </head>
+
+<body>
+        <style>
+            body {
+                margin: 0;
+                font-family: cursive;
+            }
+
+            .navbar .name {
+                font-size: 20px;
+                font-weight: bold;
+                color: whitesmoke;
+            }
+
+            .navbar .links {
+                display: flex;
+                gap: 20px;
+            }
+
+            .navbar .links a {
+                text-decoration: none;
+                color: whitesmoke;
+                font-size: 16px;
+            }
+
+            .navbar .links a:hover {
+                text-decoration: underline;
+            }
+
+            .social-container {
+        display: flex;
+        gap: 15px;
+    }
+    
+        .social-button {
+        display: flex;
+        align-items: center;
+        padding: 10px 15px;
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+        border-radius: 5px;
+        text-decoration: none;
+        transition: 0.3s ease;
+    }
+    
+        .social-button i {
+        margin-right: 8px;
+    }
+    
+        .linkedin { background-color: #0077b5; }
+        .google { background-color: #db4437; }
+        .youtube { background-color: #ff0000; }
+        .facebook { background-color: #1877f2; }
+    
+        .social-button:hover {
+        transform: scale(1.05);
+        opacity: 0.9;
+    }
+    
+        footer{
+            color: black;
+            text-align: center;
+            padding: 20px;
+            position: relative;
+            bottom: 0;
+            width: 100%
+        }
+        </style>
+    <center>
+    
+    <div class="navbar" style="background-image: url('https://thelagosweekender.com/wp-content/uploads/2020/12/IMG_20200218_173220_279-3-1-1920x1024.jpg'); display: flex;
+        justify-content: space-between; align-items: center; padding: 10px 20px;">
+        <div class="name">Ade's Diner</div>
+        <div class="links">
+            <a href="#about">About</a>
+            <a href="#menu">Menu</a>
+            <a href="#shop">Shop</a>
+            <a href="#contact">Contact</a>
+        </div>
+    </div>
+<br>
+<br>
+
+    <section id="about" style="padding: 50px; text-align: center;">
+        <div style="max-width: 800px; margin: auto;">
+            <h2 style="font-size: 2.5rem; color: rgb(209, 171, 122); margin-bottom: 20px;">About us!</h2>
+            <div style="position: relative; display: inline-block;">
+                <p>Welcome to Ade's Diner, where flavor meets comfort in a warm, inviting atmosphere. Located in the heart of Lagos, we're passionate about creating dishes that celebrate the freshest seasonal ingredients, bringing you a delightful dining experience with every visit.
+                    Our menu features a fusion of Nigerian meals, combining traditional recipes with modern twists. Whether you're here for a cozy meal with loved ones, a celebratory gathering, or just a casual bite, we've got something for everyone. We believe in quality, sustainability, and serving food that brings people together. 
+                    At Ade's Diner, our team is committed to providing excellent service and ensuring that your meal is nothing short of extraordinary. Join us for an unforgettable culinary journey, and discover why we're a local favorite!</p>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="menu" style="padding: 50px; text-align: center;">
+        <div style="max-width: 800px; margin: auto;">
+            <h2 style="font-size: 2.5rem; color: rgb(209, 171, 122); margin-bottom: 20px;">Menu!</h2>
+            <div style="position: relative; display: inline-block;">
+                <p> Starters:
+                    <br>
+                    Puff-Puff - Soft, deep-fried dough balls, crispy on the outside and fluffy on the inside.<br>
+                    Chin Chin - Sweet, crunchy fried dough snacks, a popular snack in Nigerian homes.<br>
+                    Suya - Grilled beef skewers seasoned with spicy pepper mix, served with onions and tomatoes.<br>
+                    Pepper Soup - Spicy broth with fish or goat meat, seasoned with a variety of herbs and spices.<br>
+                    <br>
+                    Main Dishes:
+                    <br>
+                    Jollof Rice - Popular rice dish cooked with tomatoes, onions, and a blend of spices.<br>
+                    Fried Rice - Rice stir-fried with vegetables, chicken, and shrimp.<br>
+                    Pounded Yam & Egusi Soup - Pounded yam served with a rich melon seed-based soup (often with spinach, goat, or beef).<br>
+                    Efo Riro - Spinach stew cooked with tomatoes, peppers, and meat (typically beef or fish).<br>
+                    Ofada Rice & Ayamase Stew - Local Nigerian rice served with spicy green pepper sauce and assorted meats.<br>
+                    Moi Moi - Steamed bean pudding, usually served as a side dish with rice.<br>
+                    <br>
+                    Sides & Accompaniments:
+                    <br>
+                    Plantains (Dodo) - Fried plantains served as a side dish.<br>
+                    Fried Yam - Crispy fried yam served with spicy pepper sauce.<br>
+                    Garri - Ground cassava flour, served with soup or stew.<br>
+                    <br>
+                    Drinks:
+                    <br>
+                    Zobo - Hibiscus drink, tangy and refreshing.<br>
+                    Chapman - A Nigerian cocktail made with lemonade, bitters, and soda.<br>
+                    Palm Wine - Traditional Nigerian alcoholic drink made from fermented palm sap.<br>
+                    Tropical Fruit Juice - A mix of mango, pineapple, and orange juice.<br>
+                    <br>
+                    Desserts:
+                    <br>
+                    Akara - Fried bean cakes, crunchy on the outside and soft on the inside.<br>
+                    Nigerian Ice Cream - Local-style ice cream, often flavored with fruits like coconut or pineapple.<br>
+                    </p>
+            </div>
+        </div>
+    </section>
+    
+    <br>
+    <br>
+        
+    <h2 style="font-size: 2.5rem; color: rgb(209, 171, 122); margin-bottom: 20px;">Social Media!</h2>
+        <p>Check us out on:</p>
+    
+        <div class="social-container">
+        <a href="https://www.linkedin.com" class="social-button linkedin" target="_blank">    
+            <i class="fab fa-linkedin"></i>LinkedIn
+            </a>
+            
+            <a href="https://www.google.com" class="social-button google" target="_blank">
+            <i class="fab fa-google"></i>Google
+            </a>
+            
+            <a href="https://www.youtube.com" class="social-button youtube" target="_blank">
+            <i class="fab fa-youtube"></i> YouTube
+            </a>
+            
+            <a href="https://www.facebook.com" class="social-button facebook" target="_blank">
+            <i class="fab fa-facebook"></i> Facebook
+            </a>
+            
+            </div>
+    
+            <footer>
+                Copyright all rights reserved by Ade's Diner.
+            </footer>
+    </body>
+    </html>
+    </center>
+</body>
+</html>
